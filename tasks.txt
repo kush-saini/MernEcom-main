@@ -1,0 +1,12 @@
+
+
+
+endpoint 
+
+To Access List of All Users 
+/user  get
+
+to Access a User by Id
+/user/:id  get
+
+

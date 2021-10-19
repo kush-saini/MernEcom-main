@@ -1,0 +1,151 @@
+
+
+MongoDB Connection String
+mongodb+srv://mernecom:mernecom@cluster0.wtjik.mongodb.net/mernecom?retryWrites=true&w=majority
+
+# Features in E-commerce Website
+
+
+application users
+public
+customer -- > 
+vendor  -->
+super_admin --> 
+
+
+actions 
+publicuser: 
+         1.
+         2.
+customer:
+      
+
+
+
+
+
+
+#### Step 1.  
+##### Input Field  
+* Email or Number in Input Field  
+#### Step 2.  
+##### Validation for Password..  
+* First Letter Must Be Capital.  
+* Password Must Include Numbers and Symbols.  
+#### Step 3.  
+##### Otp System With Timer  
+* 6 Digit Otp for security.  
+* After 30 sec of Otp timer Use Passwd Feature..  
+#### Step 4.  
+##### Email System  
+* For Otp Purpose  
+* For Receipt Sender  
+* For Forgeting Password  
+* And So on ....  
+#### Step 5.  
+##### Features in Product Card  
+* Add To Favourite  
+* Add To Cart  
+* Buy Now  
+* (+)Add and (-)Decrease in Product Quantity  
+* Size Cart  
+* Different Color Option  
+* Rating Feature for Product  
+* Comment Option  
+* Image Uploading Features in Comment  
+* Live Chat Support For Product  
+* Share Option For Product  
+* Auto Detect Location Feature  
+* Auto Detect Free Delivery Feature For Product At Given Pincode  
+#### Step 5.  
+##### Features in Cart  
+* Coupon System  
+* Payment System  
+* Removing of Product  
+* Save For Future Option  
+#### Step 6.  
+##### Different Payment Option  
+* Debit Card / Credit Card  
+* Cash On Delivery  
+* Wallet Payment  
+* Pay Later  
+* Emi Option  
+#### Step 7.  
+##### WebSite Feature  
+* Filter Option  
+* Notification Feature  
+* Product Tracking System  
+* Gift Vouchers  
+* Recent Viewed Item  
+* Coin System  
+* Wallet Feature  
+* Pay Later Feature  
+* Search Feature
+
+##### Categories
+	          electronics
+	          grocery 
+	          fashion
+	          footwear
+	          beauty 
+	          toys
+	          sports
+##### subcategories
+                         category_name
+                         subcategory_name
+                         attributes:[{attr_name:"ram", units:[mb,gb]},{},{}]
+                            
+             
+##### products 
+                     title 
+                     price
+                     images
+                     qty 
+                     description
+                     ratting
+                     discount
+                     seller
+                     brand name
+                     deliveryCharge
+                     validcoups:[{code:xxxxxx, 
+                                  discount:, 		  
+                                  expiryDate,
+                                  qty, 
+                                  usedqty},]
+   ##### Delivery Partners 
+                                     title:
+                                     website:
+                                     ServiceAvailableAt:[]
+                                     
+                                     
+  ##### users
+                                name
+                                email
+                                contact
+                                password
+                                gender
+                                address
+                                dob
+                                role
+                                status
+                                profileImage
+                                business name
+                                business address
+                                business contact
+				                    bLogo
+                                cart
+                                   product,qty,seller,price,extras,
+                                   
+   ##### order
+                                user                               
+                                cart
+	                                product,qty,seller,price,extras, status,
+                                date
+                                payment
+                                
+                                
+                                 
+                                                
+                          
+
+	          
